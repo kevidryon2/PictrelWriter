@@ -6,12 +6,14 @@ function createCanvas(width, height) {
 }
 
 kalos = {
-  createCanvas
+  createCanvas,
 }
 
-kalos.init();
-console.log("Kalos started.")
-while (true) {
-  kalos.update();
-  kalos.draw();
+function startKalos() {
+  kalos.init();
+  console.log("Kalos started.")
+  while (true) {
+    kalos.update();
+    kalos.draw();
+  }
 }

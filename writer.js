@@ -1,4 +1,4 @@
-$.getScript('kalos.js', function() {
+$.getScript('https://josephrossi.eu/pictrel/kalos/kalos.js', function() {
   var canvas;
 
   kalos.init = () => {
